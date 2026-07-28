@@ -1,0 +1,13 @@
+members:
+  - name: John Doe
+    aliases:
+      - J. Doe
+    affiliation: ABC University
+    role: Faculty
+    orcid: ""
+    openalex_id: ""
+    semantic_scholar_id: ""
+    scholar_profile_id: ""
+    active_from: ""
+    active_until: ""
+

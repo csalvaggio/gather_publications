@@ -1,0 +1,14 @@
+.venv/
+
+cache/
+
+data/
+output/
+imports/
+
+*.egg-info/
+__pycache__/
+*.pyc
+
+.DS_Store
+dirs_*

@@ -1,0 +1,28 @@
+reporting_period:
+  start: 2025-07-01
+  end: 2026-06-30
+
+paths:
+  database: ../data/publications.sqlite3
+  cache_dir: ../cache
+  output_dir: ../output
+
+api:
+  # Crossref requests that include a real contact email receive polite-pool treatment.
+  email: user@abc.edu
+
+  # OpenAlex currently requires an API key. Obtain one from OpenAlex and paste it here,
+  # or leave blank and disable the source with --sources.
+  openalex_api_key: ""
+
+  # Optional but recommended for higher Semantic Scholar rate limits.
+  semantic_scholar_api_key: ""
+
+  # Optional. ORCID public API client credentials are needed for ORCID retrieval.
+  orcid_client_id: ""
+  orcid_client_secret: ""
+
+matching:
+  fuzzy_title_threshold: 93
+  automatic_match_threshold: 0.86
+  review_match_threshold: 0.60

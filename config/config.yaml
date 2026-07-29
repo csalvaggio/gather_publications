@@ -8,17 +8,19 @@ paths:
   output_dir: ../output
 
 api:
-  # Crossref requests that include a real contact email receive polite-pool treatment.
+  # Crossref requests that include a real contact email receive polite-pool
+  # treatment.
   email: user@abc.edu
 
-  # OpenAlex currently requires an API key. Obtain one from OpenAlex and paste it here,
-  # or leave blank and disable the source with --sources.
+  # OpenAlex currently requires an API key. Obtain one from OpenAlex and
+  # paste it here, or leave blank and disable the source with --sources.
   openalex_api_key: ""
 
   # Optional but recommended for higher Semantic Scholar rate limits.
   semantic_scholar_api_key: ""
 
-  # Optional. ORCID public API client credentials are needed for ORCID retrieval.
+  # Optional. ORCID public API client credentials are needed for ORCID
+  # retrieval.
   orcid_client_id: ""
   orcid_client_secret: ""
 

@@ -173,7 +173,7 @@ To create a clean, brand-new report:
 ```bash
 rm -fr output
 rm -fr data
-rm -rf cache
+rm -fr cache
 gather-publications --config config/config.yaml --members config/members.yaml init-db
 gather-publications --config config/config.yaml --members config/members.yaml update
 gather-publications --config config/config.yaml --members config/members.yaml export --name publications_2025_2026
